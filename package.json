@@ -1,5 +1,5 @@
 {
-  "name": "reactavancado-api",
+  "name": "react-avancado-api",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -21,7 +21,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "38b2749b-f206-4702-99e2-41756a4f4732"
+    "uuid": "3062ff60-b99f-413c-8ff9-00d70a531746"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
