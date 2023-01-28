@@ -11609,6 +11609,7 @@ __metadata:
     "@strapi/strapi": 4.6.0
     pg: 8.6.0
     react-select: ^5.7.0
+    whatwg-fetch: ^3.6.2
   languageName: unknown
   linkType: soft
 

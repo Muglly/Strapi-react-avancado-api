@@ -32,7 +32,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@strapi/plugin-users-permissions", "npm:4.6.0"],\
             ["@strapi/strapi", "npm:4.6.0"],\
             ["pg", "virtual:f43f1cc5320840b7c11ab9ba13424454ba134ab90813bc7194108ab49d82166260d95542d131a5a2a9cfc9800b48b79ea331572b7b14695cd14655f92677c0b9#npm:8.6.0"],\
-            ["react-select", "virtual:f43f1cc5320840b7c11ab9ba13424454ba134ab90813bc7194108ab49d82166260d95542d131a5a2a9cfc9800b48b79ea331572b7b14695cd14655f92677c0b9#npm:5.7.0"]\
+            ["react-select", "virtual:f43f1cc5320840b7c11ab9ba13424454ba134ab90813bc7194108ab49d82166260d95542d131a5a2a9cfc9800b48b79ea331572b7b14695cd14655f92677c0b9#npm:5.7.0"],\
+            ["whatwg-fetch", "npm:3.6.2"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -14706,7 +14707,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@strapi/plugin-users-permissions", "npm:4.6.0"],\
             ["@strapi/strapi", "npm:4.6.0"],\
             ["pg", "virtual:f43f1cc5320840b7c11ab9ba13424454ba134ab90813bc7194108ab49d82166260d95542d131a5a2a9cfc9800b48b79ea331572b7b14695cd14655f92677c0b9#npm:8.6.0"],\
-            ["react-select", "virtual:f43f1cc5320840b7c11ab9ba13424454ba134ab90813bc7194108ab49d82166260d95542d131a5a2a9cfc9800b48b79ea331572b7b14695cd14655f92677c0b9#npm:5.7.0"]\
+            ["react-select", "virtual:f43f1cc5320840b7c11ab9ba13424454ba134ab90813bc7194108ab49d82166260d95542d131a5a2a9cfc9800b48b79ea331572b7b14695cd14655f92677c0b9#npm:5.7.0"],\
+            ["whatwg-fetch", "npm:3.6.2"]\
           ],\
           "linkType": "SOFT"\
         }]\
