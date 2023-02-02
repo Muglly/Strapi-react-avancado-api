@@ -1317,7 +1317,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:>=7.11.0, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:>=7.11.0, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.20.13, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.20.13
   resolution: "@babel/runtime@npm:7.20.13"
   dependencies:
@@ -1386,6 +1386,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ckeditor/ckeditor5-react@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "@ckeditor/ckeditor5-react@npm:4.0.1"
+  dependencies:
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+  checksum: 2eed7031a941c922684d381381bcb5b69b929be509ca0734a9e43adfc3c29b3d1b3939fb4f53bb5be82bf05dc13bd4678076011efa38442ccb2c3018d1c45d32
+  languageName: node
+  linkType: hard
+
 "@codemirror/autocomplete@npm:^6.0.0":
   version: 6.4.0
   resolution: "@codemirror/autocomplete@npm:6.4.0"
@@ -1403,7 +1414,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@codemirror/commands@npm:^6.0.0":
+"@codemirror/commands@npm:^6.0.0, @codemirror/commands@npm:^6.2.0":
   version: 6.2.0
   resolution: "@codemirror/commands@npm:6.2.0"
   dependencies:
@@ -1480,7 +1491,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@codemirror/view@npm:^6.0.0, @codemirror/view@npm:^6.6.0":
+"@codemirror/view@npm:^6.0.0, @codemirror/view@npm:^6.6.0, @codemirror/view@npm:^6.7.3":
   version: 6.7.3
   resolution: "@codemirror/view@npm:6.7.3"
   dependencies:
@@ -1832,6 +1843,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fingerprintjs/fingerprintjs@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@fingerprintjs/fingerprintjs@npm:3.4.0"
+  dependencies:
+    tslib: ^2.4.1
+  checksum: c4474274cb4e045c0c8715818a003d5874c911ed576dfa75279e7f689e2df8622f325fa1d6b66331e053783d48246a5ec95892429960d7bdae590eeeb02547db
+  languageName: node
+  linkType: hard
+
 "@floating-ui/core@npm:^1.0.5":
   version: 1.1.0
   resolution: "@floating-ui/core@npm:1.1.0"
@@ -1958,7 +1978,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@internationalized/number@npm:^3.1.1":
+"@internationalized/number@npm:^3.0.2, @internationalized/number@npm:^3.1.1":
   version: 3.1.2
   resolution: "@internationalized/number@npm:3.1.2"
   dependencies:
@@ -2528,7 +2548,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/design-system@npm:1.6.1":
+"@strapi/design-system@npm:1.6.1, @strapi/design-system@npm:^1.6.1":
   version: 1.6.1
   resolution: "@strapi/design-system@npm:1.6.1"
   dependencies:
@@ -2546,6 +2566,23 @@ __metadata:
     react-router-dom: ^5.2.0
     styled-components: ^5.2.1
   checksum: 9cf14dab33806ac5e90b14daa9a160204c2993b6d953298fa3fb938cfa6c0603b3bd4f53da60afa3dc05d5ce06badef5d3b904ee6634a3698c2631f45f4182ed
+  languageName: node
+  linkType: hard
+
+"@strapi/design-system@npm:^0.0.1-alpha.70":
+  version: 0.0.1-alpha.79
+  resolution: "@strapi/design-system@npm:0.0.1-alpha.79"
+  dependencies:
+    "@internationalized/number": ^3.0.2
+    compute-scroll-into-view: ^1.0.17
+    prop-types: ^15.7.2
+  peerDependencies:
+    "@strapi/icons": ^0.0.1-alpha.73
+    react: ^17.0.1
+    react-dom: ^17.0.1
+    react-router-dom: ^5.2.0
+    styled-components: ^5.2.1
+  checksum: 64691f6149834599c951ea31ac595eaf4f84ea1dbaf552dadb8e39e297a8e3b6ff371752ec9dbebdb144df2efefe4e275fdc42ea063095c470474994713c123d
   languageName: node
   linkType: hard
 
@@ -2585,7 +2622,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/helper-plugin@npm:4.6.0":
+"@strapi/helper-plugin@npm:4.6.0, @strapi/helper-plugin@npm:^4.1.5":
   version: 4.6.0
   resolution: "@strapi/helper-plugin@npm:4.6.0"
   dependencies:
@@ -2612,7 +2649,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/icons@npm:1.6.1":
+"@strapi/icons@npm:1.6.1, @strapi/icons@npm:^1.6.1":
   version: 1.6.1
   resolution: "@strapi/icons@npm:1.6.1"
   peerDependencies:
@@ -3348,6 +3385,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@uiw/codemirror-themes@npm:^4.19.7":
+  version: 4.19.7
+  resolution: "@uiw/codemirror-themes@npm:4.19.7"
+  dependencies:
+    "@codemirror/language": ^6.0.0
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+  peerDependencies:
+    "@codemirror/language": ">=6.0.0"
+    "@codemirror/state": ">=6.0.0"
+    "@codemirror/view": ">=6.0.0"
+  checksum: f316a8ec5bbc1982d5db192175d0d608217beb3f1e34f46fb9443628f6a00942291d0dcdbc575e167503fcd3fa062034ef3bbbf0d2cf5715fdbf8b667bfb4707
+  languageName: node
+  linkType: hard
+
 "@uiw/react-codemirror@npm:4.8.1":
   version: 4.8.1
   resolution: "@uiw/react-codemirror@npm:4.8.1"
@@ -3999,6 +4051,17 @@ __metadata:
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
   checksum: 6e357491b38426c5720f7328ecbafca3c643b03952c052d787570672ce7a9365717c2d64db4ce97cfbee3f830fa405101e360e14d0857ef7f96a9f4d814c4e03
+  languageName: node
+  linkType: hard
+
+"axios@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "axios@npm:1.3.0"
+  dependencies:
+    follow-redirects: ^1.15.0
+    form-data: ^4.0.0
+    proxy-from-env: ^1.1.0
+  checksum: cdb22319fb0d04d9f1388c6dfeb273e3ef688e803a2bf3bae092771f3c9d334546bd27266ae0db9d6c0108f17ab84df8a39e553fe694810363923427b20080cf
   languageName: node
   linkType: hard
 
@@ -4801,6 +4864,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ckeditor5-build-strapi-wysiwyg@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "ckeditor5-build-strapi-wysiwyg@npm:2.1.1"
+  checksum: d38ecec26f859bc1d6899d31cb1731bff1a710db84a4db5ee64470a070091516c73b824886b03e9a1562c12d691fbea69b7d0d39fd219d2f5bd237b732fcb528
+  languageName: node
+  linkType: hard
+
 "class-utils@npm:^0.3.5":
   version: 0.3.6
   resolution: "class-utils@npm:0.3.6"
@@ -4945,7 +5015,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codemirror@npm:^6.0.0":
+"codemirror@npm:^6.0.0, codemirror@npm:^6.0.1":
   version: 6.0.1
   resolution: "codemirror@npm:6.0.1"
   dependencies:
@@ -5497,6 +5567,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"css-loader@npm:^6.7.3":
+  version: 6.7.3
+  resolution: "css-loader@npm:6.7.3"
+  dependencies:
+    icss-utils: ^5.1.0
+    postcss: ^8.4.19
+    postcss-modules-extract-imports: ^3.0.0
+    postcss-modules-local-by-default: ^4.0.0
+    postcss-modules-scope: ^3.0.0
+    postcss-modules-values: ^4.0.0
+    postcss-value-parser: ^4.2.0
+    semver: ^7.3.8
+  peerDependencies:
+    webpack: ^5.0.0
+  checksum: 473cc32b6c837c2848e2051ad1ba331c1457449f47442e75a8c480d9891451434ada241f7e3de2347e57de17fcd84610b3bcfc4a9da41102cdaedd1e17902d31
+  languageName: node
+  linkType: hard
+
 "css-select@npm:^4.1.3":
   version: 4.3.0
   resolution: "css-select@npm:4.3.0"
@@ -5553,7 +5641,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:2.29.3":
+"date-fns@npm:2.29.3, date-fns@npm:^2.29.3":
   version: 2.29.3
   resolution: "date-fns@npm:2.29.3"
   checksum: e01cf5b62af04e05dfff921bb9c9933310ed0e1ae9a81eb8653452e64dc841acf7f6e01e1a5ae5644d0337e9a7f936175fd2cb6819dc122fdd9c5e86c56be484
@@ -8465,6 +8553,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"js-cookie@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "js-cookie@npm:3.0.1"
+  checksum: bb48de67e2a6bd1ae3dfd6b2d5a167c33dd0c5a37e909206161eb0358c98f17cb55acd55827a58e9eea3630d89444e7479f7938ef4420dda443218b8c434a4c3
+  languageName: node
+  linkType: hard
+
 "js-levenshtein@npm:^1.1.6":
   version: 1.1.6
   resolution: "js-levenshtein@npm:1.1.6"
@@ -9095,6 +9190,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.merge@npm:^4.6.2":
+  version: 4.6.2
+  resolution: "lodash.merge@npm:4.6.2"
+  checksum: ad580b4bdbb7ca1f7abf7e1bce63a9a0b98e370cf40194b03380a46b4ed799c9573029599caebc1b14e3f24b111aef72b96674a56cfa105e0f5ac70546cdc005
+  languageName: node
+  linkType: hard
+
 "lodash@npm:4.17.21, lodash@npm:^4.17.11, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
@@ -9379,7 +9481,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"match-sorter@npm:^6.0.2":
+"match-sorter@npm:^6.0.2, match-sorter@npm:^6.3.1":
   version: 6.3.1
   resolution: "match-sorter@npm:6.3.1"
   dependencies:
@@ -10966,7 +11068,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.3.11, postcss@npm:^8.4.18":
+"postcss@npm:^8.3.11, postcss@npm:^8.4.18, postcss@npm:^8.4.19":
   version: 8.4.21
   resolution: "postcss@npm:8.4.21"
   dependencies:
@@ -11279,11 +11381,34 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-avancado-api@workspace:."
   dependencies:
+    "@babel/runtime": ^7.20.13
+    "@codemirror/commands": ^6.2.0
+    "@codemirror/state": ^6.2.0
+    "@codemirror/view": ^6.7.3
+    "@fingerprintjs/fingerprintjs": ^3.4.0
+    "@strapi/design-system": ^1.6.1
+    "@strapi/icons": ^1.6.1
     "@strapi/plugin-i18n": 4.6.0
     "@strapi/plugin-users-permissions": 4.6.0
     "@strapi/strapi": 4.6.0
+    "@uiw/codemirror-themes": ^4.19.7
+    axios: ^1.3.0
+    codemirror: ^6.0.1
+    css-loader: ^6.7.3
+    date-fns: ^2.29.3
+    invariant: ^2.2.4
+    js-cookie: ^3.0.1
+    lodash: ^4.17.21
+    lodash.merge: ^4.6.2
+    match-sorter: ^6.3.1
     pg: 8.6.0
+    pluralize: ^8.0.0
+    prop-types: ^15.8.1
+    react: ^18.2.0
     react-select: ^5.7.0
+    semver: ^7.3.8
+    strapi-plugin-ckeditor5: latest
+    style-loader: ^3.3.1
     whatwg-fetch: ^3.6.2
   languageName: unknown
   linkType: soft
@@ -11610,6 +11735,15 @@ __metadata:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
   checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
+  languageName: node
+  linkType: hard
+
+"react@npm:^18.2.0":
+  version: 18.2.0
+  resolution: "react@npm:18.2.0"
+  dependencies:
+    loose-envify: ^1.1.0
+  checksum: 88e38092da8839b830cda6feef2e8505dec8ace60579e46aa5490fc3dc9bba0bd50336507dc166f43e3afc1c42939c09fe33b25fae889d6f402721dcd78fca1b
   languageName: node
   linkType: hard
 
@@ -12846,6 +12980,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"strapi-plugin-ckeditor5@npm:latest":
+  version: 2.1.1-rc.1
+  resolution: "strapi-plugin-ckeditor5@npm:2.1.1-rc.1"
+  dependencies:
+    "@ckeditor/ckeditor5-react": ^4.0.0
+    "@strapi/design-system": ^0.0.1-alpha.70
+    "@strapi/helper-plugin": ^4.1.5
+    ckeditor5-build-strapi-wysiwyg: ^2.1.1
+    react: ^17.0.2
+    react-dom: ^17.0.2
+  checksum: 19a0b9d784ecf01beaee445340a40373d141e9ac797bdfa613da7352cc7f13f5d7f8e78a12f5f722dd4290e30708c88e75e2a5eebe1bbb6cfcc5284cd9f55e1c
+  languageName: node
+  linkType: hard
+
 "stream-browserify@npm:^3.0.0":
   version: 3.0.0
   resolution: "stream-browserify@npm:3.0.0"
@@ -12984,7 +13132,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-loader@npm:3.3.1":
+"style-loader@npm:3.3.1, style-loader@npm:^3.3.1":
   version: 3.3.1
   resolution: "style-loader@npm:3.3.1"
   peerDependencies:
@@ -13384,7 +13532,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.4.0":
+"tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.4.0, tslib@npm:^2.4.1":
   version: 2.5.0
   resolution: "tslib@npm:2.5.0"
   checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
